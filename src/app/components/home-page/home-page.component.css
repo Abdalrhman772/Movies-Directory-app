@@ -5,15 +5,15 @@
   align-items: center;
 }
 
-.search {
+.search-container{
   width: 100%;
   max-width: 900px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .search-field {
+  display: flex;
   flex-grow: 1;
   padding-right: 10px;
 }

@@ -30,7 +30,7 @@ export class MovieDetailsComponent implements OnInit {
       },
 
       error: (err) => {
-        console.log('get movie details error : '+err);
+        console.log('get movie details error : ' + err);
       },
     });
   }
