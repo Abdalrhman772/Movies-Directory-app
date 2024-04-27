@@ -1,15 +1,14 @@
 <div class="container">
   <div class="search-container">
-    <div class="search">
-      <mat-form-field class="search-field">
-        <input
-          matInput
-         (keyup)="search()"
-          placeholder="Search for a movie"
-          [(ngModel)]="searchKeyword"
-        />
-      </mat-form-field>
-    </div>
+    <mat-form-field class="search-field">
+      <input
+        matInput
+        (keyup)="search()"
+        placeholder="Search for a movie"
+        [(ngModel)]="searchKeyword"
+      />
+    </mat-form-field>
+
     <button mat-raised-button color="primary" (click)="search()">Search</button>
   </div>
 
