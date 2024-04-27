@@ -1,0 +1,16 @@
+<div *ngIf="movieData" class="container">
+  <div class="poster">
+    <img src="{{ movieData.Poster }}" alt="" />
+  </div>
+
+  <div class="details">
+    <p class="title">{{ movieData.Title }}</p>
+    <p><span class="factor">Year:</span> {{ movieData.Year }}</p>
+    <p><span class="factor">Plot:</span> {{ movieData.Plot }}</p>
+    <p><span class="factor">Imdb Rating:</span> {{ movieData.imdbRating }}</p>
+    <p><span class="factor">Director:</span> {{ movieData.Director }}</p>
+    <button mat-raised-button color="primary" routerLink="/">
+      Back to Home Page
+    </button>
+  </div>
+</div>
